@@ -43,7 +43,7 @@ app.get('/connecttoMC', function(request, responsefromWeb) {
   	}
 	axios({
 	  method:'post',
-	  url:'https://auth.exacttargetapis.com/v1/requestToken',
+	  url:'https://mcpt117w99nfd-nt4kp5s5rnschm.auth.marketingcloudapis.com/',
 	  data: conData,
 	  headers:{
        'Content-Type': 'application/json',
